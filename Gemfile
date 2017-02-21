@@ -4,7 +4,7 @@ source :rubygems
 
 gem "activerecord", "~> 3.1"
 gem "activesupport", "~> 3.1"
-gem "polyamorous", "~> 1.3"
+gem 'polyamorous', github: 'activerecord-hackery/polyamorous'
 gem "actionpack", "~> 3.1"
 
 group :development do
